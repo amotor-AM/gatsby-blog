@@ -1,0 +1,35 @@
+.HomePage-Container {
+    height: 100vh;
+    width: 100vw;
+}
+
+.HomePage-Hero {
+    width: 100%;
+    height: 60%;
+    overflow: hidden;
+    background-position: 50%;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 100px
+}
+
+.HomePage-Hero h3 {
+    color: white;
+    font-size: 35px;
+}
+
+.HomePage-Feed {
+    width: 1020px;
+    min-width: 70%;
+    max-width: 90%;
+    margin: 0 auto;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+

@@ -1,0 +1,26 @@
+.Header-Container {
+    width: 100%;
+    height: 150px;
+    display: flex;
+    padding: 0 20%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Header-Logo {
+    height: 85%;
+    width: auto;
+}
+
+.Header-Logo img {
+    height: 100%;
+    width: auto;
+}
+
+.Header-CTA-Button {
+    padding: 20px 40px;
+    border-radius: 10%;
+    color: white;
+    background-color: red;
+}

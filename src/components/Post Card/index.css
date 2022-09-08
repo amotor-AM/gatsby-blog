@@ -1,0 +1,42 @@
+.Card-Container {
+    margin: 3%;
+    padding: 0;
+    width: 300px;
+    max-width: 90%;
+}
+
+.Card-Image-Container {
+    width: 100%;
+    height: 200px;
+    background-color: black;
+}
+
+.Card-Body h4 {
+    color: #334c52;
+    font-size: 1rem;
+    line-height: 1.15em;
+    font-weight: 300;
+}
+
+.Card-Body h3 {
+    font-size: 2rem;
+    color: #15171a;
+    font-weight: 700;
+    line-height: 0.75em;
+    margin: 0 0 20px;
+}
+
+.Card-Body p {
+    color: #15171a;
+    margin: 0 0 10px;
+}
+
+.Card-Body-Length {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.Card-Body-Length p {
+    color: #334c52;
+    font-weight: 700;
+}

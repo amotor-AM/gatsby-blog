@@ -1,0 +1,117 @@
+.Post-Container {
+    width: 70vw;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.Blog-Post-Container {
+    width: 60%;
+    min-width: 600px;
+    max-width: 100%;
+    margin-top: 75px;
+    
+}
+
+.Featured-Ad {
+    width: 100%;
+    height: 150px; /*set height to auto*/
+    border: 1px solid red;
+}
+
+.Post-Image {
+    width: 100%;
+    height: 480px;
+    overflow: hidden;
+    background-position: 50%;
+    background-size: cover;
+    margin: 50px 0;
+    background-color: black;
+}
+
+.Post-Title {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem;
+    margin-bottom: 50px;
+}
+
+.Post-Body {
+    vertical-align: baseline;
+    font-size: 1.2rem;
+}
+
+.Post-Navigation {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 0;
+}
+
+.Social-Share {
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Social-Share img {
+    height: 40px;
+    width: 40px;
+}
+
+.Next-Post {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center
+}
+
+.Next-Post p {
+    font-size: 1.2rem;
+    color: black;
+}
+
+.Next-Post img {
+    height: 40px;
+    width: 40px;
+    margin-left: 10px;
+}
+
+.Post-Sidebar {
+    height: 85vh;
+    position: fixed;
+    left: 70%;
+    top: 75px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between
+}
+
+.Sidebar-Social-Share {
+    margin-top: -40px;
+}
+
+.Sidebar-Social-Share img {
+    height: 30px;
+    width: 30px;
+    margin-right: 15px;
+}
+
+.Sidebar-Relevant-Ad {
+    width: 300px;
+    height: 250px;
+    border: 1px solid red;
+}
+
+.Sidebar-Subscribe-Box {
+    border: 1px solid green;
+    width: 300px;
+    height: 250px;
+}
+
+.Sidebar-Relevant-Posts {
+    width: 300px;
+    height: 200px;
+    border: 1px solid grey;
+}
